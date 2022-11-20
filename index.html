@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> jewel animation one </title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+
+.box {
+width: 100px; height: 100px;
+background-color:#d2a; opacity:.5;
+position:absolute;
+transform-style: preserve-3d;
+margin:50px 50px;
+
+}
+
+@keyframes spin {
+0% {transform: rotateY(0deg) rotatez(45deg)}
+100% {transform: rotateY(360deg) rotatez(45deg)}
+}
+
+.box {
+animation-name: spin;
+animation-duration:10s;
+animation-iteration-count:infinite;
+animation-timing-function:linear;
+}
+
+@keyframes spin2 {
+0% {transform: rotateY(0deg) rotatez(45deg)}
+100% {transform: rotateY(360deg) rotatez(45deg)}
+}
+
+.inside_box {
+animation-name: spin2;
+animation-duration:5s;
+animation-iteration-count:infinite;
+animation-timing-function:linear;
+}
+
+
+@keyframes spin3 {
+0% {transform: rotatey(0deg)  rotatez(0deg)}
+100% {transform: rotatey(360deg)  rotatez(360deg)}
+}
+
+.container2 {
+animation-name: spin3;
+animation-duration:8s;
+animation-iteration-count:infinite;
+animation-timing-function:linear;
+}
+
+.container {
+outline: 1px solid transparent;
+width:200px; height:200px;
+perspective: 550px;
+
+margin: 100px  auto;
+}
+
+.container2 {
+outline: 1px solid orange;
+border: 2px solid dodgerblue;
+border-radius: 50%;
+width:200px; height:200px;
+position:absolute;
+}
+
+.inside_box {
+width: 50px; height:50px;
+background-color: lightgreen;
+transform: rotateY(-20deg);
+margin:75px 75px;
+position: absolute;
+}
+.container3 {
+outline: 2px solid white;
+border: 2px solid orange;
+border-radius:50%;
+width:200px; height:200px;
+position:absolute;
+}
+
+
+.container3 {
+animation-name: spin3;
+animation-duration:11s;
+animation-iteration-count:infinite;
+animation-timing-function:linear;
+animation-delay:-2s;
+}
+
+.container4 {
+outline: 1px solid red;
+border: 2px solid lightyellow;
+border-radius: 50%;
+
+width:200px; height:200px;
+position:absolute;
+}
+
+
+.container4 {
+animation-name: spin3;
+animation-duration:7s;
+animation-iteration-count:infinite;
+animation-timing-function:linear;
+animation-delay:-10s;
+}
+
+
+
+
+
+
+.container5 {
+outline: 1px solid green;
+border: 2px solid blue;
+width:200px; height:200px;
+border-radius:50%;
+position:absolute;
+}
+
+
+.container5 {
+animation-name: spin3;
+animation-duration:7s;
+animation-iteration-count:infinite;
+animation-timing-function:linear;
+animation-delay:-4s;
+}
+
+.inside_circle {
+ width:25px; height:25px;
+background-color:aqua;
+ border:1px solid white;
+border-radius:50%;
+position:absolute;
+margin: 87px 87px;
+}
+.inside_circle {
+animation-name: spin4;
+animation-duration:7s;
+animation-iteration-count:infinite;
+animation-timing-function:linear;
+animation-delay:-4s;
+}
+@keyframes spin4 {
+0% {transform: rotatex(0deg)   rotatez(0deg)}
+100% {transform: rotatex(360deg)   rotatez(360deg)}
+}
+
+
+
+
+body {background-color: black;}
+
+
+
+
+
+
+</style>
+
+<body>
+
+<div class="container"> 
+     <div class="container2"> </div>
+     <div class="container3"></div>
+     <div class="container4"></div>
+     <div class="container5"></div>
+  <div class="box">  </div>
+  <div class="inside_box" style="opacity:.4;"> </div>
+  <div class="inside_circle" style="opacity:.3;"></div>
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
