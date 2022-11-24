@@ -1,6 +1,10 @@
+let img
+function preload() {img = loadImage('hands.jpg');}
+
+
 function setup() {
   createCanvas(windowWidth,windowHeight );
-  background(130,29,50)
+  image (img,0,0)
   frameRate(90)
 }
 
