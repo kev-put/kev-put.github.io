@@ -1,5 +1,5 @@
 let img
-function preload() {img = loadImage('hands.jpg');}
+function preload() {img = loadImage('steve.jpg');}
 
 
 function setup() {
