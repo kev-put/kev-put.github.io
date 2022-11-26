@@ -26,10 +26,11 @@ randoThree = random (200)
   randoSeven = random(20,80)
   randoEight = random(10,90)
   randoNine = random(10,30)
-  ellipse (randoFive,randoSix, randoOne,randoTwo)
-  fill(randoOne,randoTwo,randoThree,randoFour)
-  strokeWeight(randoNine)
-  stroke(randoThree,randoFour,randoTwo,randoSeven)
+  fill(randoOne,randoTwo,randoThree,randoFour);
+  ellipse (randoFive,randoSix, randoOne,randoTwo);
+  
+  strokeWeight(randoNine);
+  stroke(randoThree,randoFour,randoTwo,randoSeven);
   
   
 
