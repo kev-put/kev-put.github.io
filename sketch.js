@@ -11,7 +11,7 @@ let randoNine
 function setup() {
   createCanvas(windowWidth,windowHeight);
   background(0);
-  frameRate(5)
+  
 }
 
 function draw() {
