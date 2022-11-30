@@ -16,16 +16,16 @@ function draw() {
   if(x>351 && x<400 && y<250 && y>110) {fill(30,210,111)}
   if(x>50 && x<100 && y<350 && y>300) {fill(0,110,111)}
   if (x > width) {
-    a = -1.2; fill(200,200,1)
+    a = -3.2; fill(200,200,1)
   }
   if (x < 0) {
-    a = 1.7; fill(0,0,100)
+    a = 3.7; fill(0,0,100)
   }
   if (y > height) {
-    b = -1.4; fill(0,200,0)
+    b = -3.4; fill(0,200,0)
   }
   if (y < 0) {
-    b = 1.8; fill(100,0,0)
+    b = 3.8; fill(100,0,0)
   }
   rectMode(CENTER);
   
