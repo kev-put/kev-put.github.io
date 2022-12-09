@@ -5,8 +5,8 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   x = 10;
   y = 10;
-  a = 1;
-  b = 1;
+  a = 5;
+  b = 5;
   background(0);
   fill(100,0,0)
 }
@@ -40,7 +40,7 @@ function draw() {
   }
   //rectMode(CENTER);
   
-  rect(x, y,30,30); 
+  rect(x, y,40,40); 
   
   
   
