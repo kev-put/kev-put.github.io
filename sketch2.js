@@ -3,7 +3,7 @@ let x,y;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  frameRate(.5)
+  frameRate(.28)
 }
 
 function draw() {
