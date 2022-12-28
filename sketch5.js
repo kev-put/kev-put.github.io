@@ -21,5 +21,5 @@ function draw() {
   }
   //rectMode(CENTER)
   fill(random(100,200),random(100,200),0)
-  triangle(x,y,x+random(10,15),y+random(10,15),x+random(30,40),y+random(30,40))
+  triangle(x,y,x+random(30,40),y+random(30,40),x+random(70,95),y+random(70,95))
 }
