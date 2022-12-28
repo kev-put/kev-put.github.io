@@ -9,9 +9,9 @@ function draw() {
   //i++
   rotateY(millis()/1000)
   rotateX(millis()/10000)
-  fill(0,200,50,10)
+  fill(0,200,50,30)
   strokeWeight(25)
-  stroke('rgba(185,117,52,0.01)')
+  stroke('rgba(185,117,52,0.1)')
    translate(-width / 2, -height / 2, 0)
   //push()
   
