@@ -1,6 +1,8 @@
 function setup() {
   createCanvas(windowWidth, windowHeight,WEBGL);
-  background(0);}
+  background(0);
+  pixelDensity(1)
+}
 
 function draw() {
  
