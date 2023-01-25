@@ -32,13 +32,14 @@ function draw() {
     fill(255,0,100)
   text('press and hold mouse for key',30,-150)}
   if(mouseIsPressed){
+    fill(255,0,100)
     text('ARROW KEYS for position',30,0),
       text('Q and E for axis one',30,150);
   text('A and D for axis two',30,300);
   text('Z and C for axis three',30,450)
   }
   
-  fill(255,0,0)
+
   pop()
   
   
