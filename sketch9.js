@@ -28,7 +28,7 @@ function draw() {
   push()
   
   translate(-width,-height)
-  if(frameCount<200){
+  if(frameCount<100){
     fill(255,0,100)
   text('click screen for key',30,-150)}
   if(mouseIsPressed){
