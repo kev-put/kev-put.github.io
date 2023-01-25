@@ -34,9 +34,9 @@ function draw() {
   if(mouseIsPressed){
     fill(255,0,100)
     text('ARROW KEYS for position',30,0),
-      text('Q and E for axis one',30,150);
-  text('A and D for axis two',30,300);
-  text('Z and C for axis three',30,450)
+      text('Q and E for movement one',30,150);
+  text('A and D for movement two',30,300);
+  text('Z and C for movement three',30,450)
   }
   
 
