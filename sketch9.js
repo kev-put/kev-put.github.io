@@ -30,7 +30,7 @@ function draw() {
   translate(-width,-height)
   if(frameCount<100){
     fill(255,0,100)
-  text('click screen for key',30,-150)}
+  text('press and hold mouse for key',30,-150)}
   if(mouseIsPressed){
     text('ARROW KEYS for position',30,0),
       text('Q and E for axis one',30,150);
