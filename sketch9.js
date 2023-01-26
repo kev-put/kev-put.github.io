@@ -24,6 +24,13 @@ function setup() {
 }
 
 function draw() {
+  if(windowWidth < 450){
+    background(100,0,255)
+    push()
+    text('This page is currently for desktops only!',10,10)
+    pop()
+  }
+  else{
   background(0)
   push()
   
@@ -115,6 +122,6 @@ function draw() {
   }
   
  
-  
+  }
  
 }
