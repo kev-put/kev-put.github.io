@@ -14,7 +14,7 @@ function preload() {
 
 
 function setup() {
-  let hog=createCanvas(400, 400)
+  let hog=createCanvas(windowWidth, windowHeight)
     background(0);
   //whistle2=createAudio('whistle2.mp3')
   
