@@ -1,3 +1,4 @@
+var on = false
 let slider;
 let r = 0;
 let r2 = 0;
@@ -38,7 +39,7 @@ function draw() {
   if(frameCount<100){
     fill(255,0,100)
   text('press and hold mouse for key',30,-150)}
-  if(mouseIsPressed){
+  if(on==true){
     fill(255,0,100)
     text('ARROW KEYS for position',30,0),
       text('Q and E for movement one',30,150);
@@ -125,3 +126,4 @@ function draw() {
   }
  
 }
+function mousePressed(){on=!on}
