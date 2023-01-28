@@ -38,7 +38,7 @@ function draw() {
   translate(-width,-height)
   if(frameCount<100){
     fill(255,0,100)
-  text('press and hold mouse for key',30,-150)}
+  text('click mouse for key',30,-150)}
   if(on==true){
     fill(255,0,100)
     text('ARROW KEYS for position',30,0),
