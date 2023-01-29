@@ -32,11 +32,13 @@ function setup() {
 // }
 
 function draw() {
-  i++
-  if(i<100){thistles.play()}
-  if(i> 250 && i < 350){pistils.play()}
-   if(i>50 && i < 200){thistle.play()}
-  if(i>400){i=0}
+//   i++
+//   if(i<100){thistles.play()}
+//   if(i> 250 && i < 350){pistils.play()}
+//    if(i>50 && i < 200){thistle.play()}
+//   if(i>400){i=0}
+  
+  if (mouseIsPressed){background(random(255),thistles.play}
   
   
 }
