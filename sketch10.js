@@ -38,7 +38,7 @@ function draw() {
 //    if(i>50 && i < 200){thistle.play()}
 //   if(i>400){i=0}
   
-  if (mouseIsPressed){background(random(255)),thistles.play}
+  if (mouseIsPressed){thistles.play}
   
   
 }
