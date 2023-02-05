@@ -34,7 +34,7 @@ function setup() {
   curveVertex(x-s,y)
   curveVertex(x-s,y)
   endShape()
-  fill(200)
+  fill(240)
   noStroke()
   ellipse(x-.4*s,y-.3*s,v*3,v*2)
   ellipse(x+.4*s,y-.3*s,v*3,v*2)
@@ -50,7 +50,7 @@ function draw() {
   
   background(0);
   l++
-  if (s<100) {v=0} else{v=10}
+  //if (s<100) {v=0} else{v=10}
   if (l>30 && l<60) {s=s+6}
   if(s>width+260){s=0}
   //if (l>270 && l<=300) s=s-6
