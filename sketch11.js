@@ -50,7 +50,7 @@ function draw() {
   
   background(0);
   l++
-  //if (s<100) {v=0} else{v=10}
+  if (s<100) {v=0} else{v=10}
   if (l>30 && l<60) {s=s+6}
   if(s>width+260){s=0}
   //if (l>270 && l<=300) s=s-6
